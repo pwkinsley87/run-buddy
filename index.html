@@ -10,91 +10,119 @@
         <header>
          <h1>RUN BUDDY</h1>
          <nav>
-            <ul>
-                <li>
-                    <a href="#what-we-do">What We Do</a>
-                </li>
-                <li>
-                    <a href="what-you-do">What We Do</a>
-                 </li>
-                 <li>
-                     <a href="your-trainers">Your Trainers</a>
-                </li>
-                <li>
-                    <a href="reach-out">Reach Out</a>   
-                </li>
-            </ul>
-          </nav>  
+                <ul>
+                    <li>
+                     <a href="#what-we-do">What We Do</a>
+                    </li>
+
+                    <li>
+                     <a href="#what-you-do">What You Do</a>
+                    </li>
+
+                    <li>
+                     <a href="#your-trainers">Your Trainers</a>
+                    </li>
+
+                    <li>
+                     <a href="#reach-out">Reach Out</a>   
+                    </li>
+               </ul>
+           </nav>  
        </header>
             <!-- Hero section -->
-       <section>
-           <div>
-                    <h3>Get Started Today</h3>
-                    <p>Fill out this form and one of our trainers will schedule a consult.</p>
+       <section class="hero">
+           <div class="hero-form">
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult.</p>
                     <!-- Add form element -->
                 <form>
-                    <label for="name">Enter Full Name</label>  
-                    
-                    <input type="text" placeholder="Your Name" name="name" id="name" />
-
-                    <label for="phone">Enter Your Phone Number</label>
-                    
-                    <input type="tel" placeholder="Your Phone Number" name="phone" id="phone" />
-
-                    <label for="email">Enter Your Email Address</label>
-
-                    <input type="email" placeholder="Your Email Address" name="email" id="email" />
-
+                    <label for="name">Enter Full Name:</label>  
+                    <br />
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form input" />
+                    <br />
+                    <label for="phone">Enter Your Phone Number:</label>
+                    <br />
+                    <input type="tel" placeholder="Your Phone Number" name="phone" id="phone" class="form input" />
+                    <br />
+                    <label for="email">Enter Your Email Address:</label>
+                    <br />
+                    <input type="email" placeholder="Your Email Address" name="email" id="email" class="form input" />
+                    <br />
+                
                     <p> Have you worked out with a trainer before?
-                        <input type="radio" name="trainer confirm" id="trainer-yes" />
+                    <input type="radio" name="trainer confirm" id="trainer-yes" />
 
-                        <label for="trainer yes">Yes</label>
+                    <label for="trainer yes">Yes</label>
 
-                        <input type="radio" name="trainer confirm" id="trainer-no" />
+                    <input type="radio" name="trainer confirm" id="trainer-no" />
 
-                        <label for="trainer no">No</label>
-                    </p>
+                    <label for="trainer no">No</label>
+                 </p>
 
-                    <p>I acknowledge that I am at least 18 years of age.
-                        <input type="checkbox" name="checkbox" id="age confirm" />
+                 <p>I acknowledge that I am at least 18 years of age.
+                 <input type="checkbox" name="checkbox" id="age confirm" />
 
-                        <label for="checkbox">Confirm</label>
+                    <label for="checkbox">Confirm</label>
                     </p>
 
                     <button type="submit">Get Running!
                     </button>
                 </form>
-           </div>
-        </section>
-
-    
-       <section>
-            <div>
-                 <h2>What We Do</h2>
-                 <p>Presumably we help you...run?</p>
-                <form></form>
             </div>
         </section>
 
-        <section>
+        <!--"what we do" section-->
+       <section id="what-we-do" class="intro">
+            <h2>What We Do</h2>
+            <p>placeholder nonsense words I have no intention of typing out</p>
+       </section>
+
+        <!--"what you do" section-->
+        <section id="what-you-do">
              <h2>What You Do</h2>
+            
+            <div>
+                <!--Insert this img element-->
+                <img src="./assets/images/step-1.svg">
+                <h3>Step 1: Fill Out the Form Above.</h3>
+                <p>You're already here, so why not?</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/step-2.svg">
+                <h3>Step 2: Consult with One of Our Trainers</h3>
+                <p>Are you here to build muscle, lose weight, or just feel good?</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/step-3.svg">
+                <h3>Step 3: Get Running.</h3>
+                <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+            </div>
+
+            <div> 
+                <img src="./assets/images/step-4.svg">
+                <h3>Step 4: See Results.</h3>
+                <p>Bi-weekly check-ins with your trainer will keep you focused.</p>
+            </div>
         </section>
 
-        <section>
+        <section id="your-trainers">
              <h2>Meet The Trainers</h2>
         </section>
 
-        <section>
+        <section id="reach-out">
              <h2>Reach Out</h2>
         </section>
     
         <footer>
-            <h2> ❤️ Made with love by Run Buddy.
-                <div> 
+            <h2> ❤️ Made with love by Run Buddy. </h2>
+                <div> <h3>
                     <a href="#">Read Our Privacy Policy</a><br />
-                    &copy; 2019 Run Buddy, Inc.        
+                    &copy; 2019 Run Buddy, Inc.    
+                    </h3>    
                 </div>
-            </h2>
+        
         </footer> 
     </body> 
 
